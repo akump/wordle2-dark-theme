@@ -1,0 +1,40 @@
+$primary-background: #232323;
+$lighter-background: #292a2d;
+$gray-background: #d3d3d3;
+$popup-background: #404040;
+$hover: #424242;
+$border-color: #37383a;
+$text-color: #e8eaed;
+$dark-text-color: #232323;
+$scrollbar-background: #474747;
+$scrollbar-hover: #888888;
+$scrollbar-color: #646464;
+
+.mat-dialog-container {
+  background-color: $popup-background !important;
+}
+
+body,
+.top-nav {
+  background-color: $primary-background !important;
+}
+
+.timer span {
+  color: $text-color !important;
+}
+
+.top-nav {
+  border-bottom: none !important;
+}
+
+.Empty {
+  background-color: $gray-background !important;
+}
+
+.letter-box.Empty {
+  background-color: $lighter-background !important;
+}
+
+.letter-box p {
+  color: $text-color !important;
+}

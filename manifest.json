@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Wordle 2 Dark Theme",
+    "version": "1.0.0",
+    "description": "Dark theme for Worlde 2",
+    "content_scripts": [{
+        "matches": ["https://www.memecenter.org/*"],
+        "css": ["dist/styles.css"]
+    }],
+    "icons": {
+        "16": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
